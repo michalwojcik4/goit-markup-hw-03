@@ -13,6 +13,9 @@
 .section{
     padding: 94px 15px;
 }
+img { 
+    display: block;
+}
 header{
     border-bottom: 1px solid #ECECEC;
 }
@@ -121,29 +124,37 @@ h1{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* our-strengths div */
-.our-strengths h2{
+.our-strengths-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 94px;
+}
+.our-strengths-list h2{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.our-strengths p{
+.our-strengths-list p{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: var(--text-grey);
 }
 /* our job section */
-img { 
-    display: block;
-}
 .our-job h2{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.our-job-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 /* team section */
 .team h2{
