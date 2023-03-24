@@ -157,6 +157,19 @@ h1{
     gap: 30px;
 }
 /* team section */
+.team-background-color{
+    background-color: var(--background-color-team);
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.team-list li{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .team h2{
     font-weight: 700;
     font-size: 36px;
