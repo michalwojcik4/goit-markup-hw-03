@@ -108,6 +108,7 @@ h1{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     max-width: 696px;
+    margin: 0;
 }
 .main-button{
     background-color: #2196F3;
@@ -141,12 +142,14 @@ h1{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin: 0 0 10px 0;
 }
 .our-strengths-list p{
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--text-grey);
+    margin: 0;
 }
 /* our job section */
 .our-job h2{
@@ -176,7 +179,8 @@ h1{
     padding: 0;
     margin: 0;
 }
-.team-list li{
+.team-list figure{
+    margin: 0;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -187,22 +191,25 @@ h1{
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-} 
-.team h3{
+}
+.team-list figcaption{
+    padding: 30px 0;
+}
+.team-list h3{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
-    margin: 30px 0 10px;
+    margin:0 0 10px 0;
 }
-.team p{
+.team-list p{
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-grey);
-    margin: 0 0 30px;
+    margin: 0;
 }
 /* PORTFOLIO */
 .filter{
